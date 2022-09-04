@@ -1,0 +1,320 @@
+body {
+    font-family: monospace;
+}
+
+h1 {
+  //font-family: "Font Awesome 5 Brands";
+  font-family: monospace;
+  font-size: 30;
+  // top: 20px;
+  // left: 250px;
+}
+
+h2 {
+  //font-family: "Font Awesome 5 Brands";
+  font-size: 25;
+}
+
+td {
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+}
+
+img {
+
+}
+
+:root {
+  --color_scheme_2: #96A9AB;
+  --color_scheme_3: #B0BABF;
+  --color_scheme_4: #20292F;
+}
+
+.default-theme {
+  color: var(----color_scheme_4);
+  background: var(--color_scheme_3);
+  margin: 0;
+  padding: 0;
+}
+
+.mm_expand {
+}
+
+.btn {
+  // position: absolute;
+  top: 20px;
+  left: 250px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: none;
+}
+
+div.upper_first_section_spacing {
+  color: var(--color_scheme_3);
+  background-color: var(--color_scheme_4);
+  height: 50px;
+}
+
+div.lower_first_section_spacing {
+  color: var(--color_scheme_3);
+  background-color: var(--color_scheme_4);
+  height: 50px;
+}
+
+div.gallery_background {
+  color: var(--color_scheme_3);
+  background-color: var(--color_scheme_4);
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  display: block;
+  overflow: hidden;
+}
+
+div.about_me_section {
+  color: var(--color_scheme_4);
+  background-color: var(--color_scheme_3);
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  max-width: 180%;
+  display: block;
+  overflow: hidden;
+}
+
+div.about_me_section_inner {
+  color: var(--color_scheme_4);
+  background-color: var(--color_scheme_3);
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  max-width: 180%;
+  padding-left: 20%;
+  padding-right: 20%;
+  display: block;
+  overflow: hidden;
+  font-size: 20;
+}
+
+div.about_me_section_upper_spacing {
+  color: var(--color_scheme_4);
+  background-color: var(--color_scheme_3);
+  height: 50px;
+}
+
+div.about_me_section_bottom_spacing {
+  color: var(--color_scheme_4);
+  background-color: var(--color_scheme_3);
+  height: 50px;
+}
+
+div.professional_upper_spacing {
+  color: var(--color_scheme_3);
+  background-color: var(--color_scheme_4);
+  height: 30px;
+}
+
+div.professional {
+  color: var(--color_scheme_3);
+  background-color: var(--color_scheme_4);
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  max-width: 180%;
+  display: block;
+  overflow: hidden;
+}
+
+div.professional_bottom_spacing {
+  color: var(--color_scheme_3);
+  background-color: var(--color_scheme_4);
+  height: 0px;
+}
+
+div.end_spacing {
+  color: var(--color_scheme_3);
+  background-color: var(--color_scheme_4);
+  padding-bottom: 0;
+}
+
+div.hobby_projects_upper_spacing {
+  color: var(--color_scheme_4);
+  background-color: var(--color_scheme_3);
+  height: 30px;
+}
+
+div.hobby_projects {
+  color: var(--color_scheme_4);
+  background-color: var(--color_scheme_3);
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  max-width: 180%;
+  display: block;
+  overflow: hidden;
+}
+
+div.experiance {
+  color: var(--color_scheme_4);
+  background-color: var(--color_scheme_3);
+  // font-family: "Font Awesome 5 Brands";
+  box-sizing: border-box;
+  position: relative;
+  padding-left: 0%;
+  padding-right: 6.0%;
+  width: 100%;
+  max-width: 180%;
+  display: block;
+  overflow: hidden;
+}
+
+div.hobby_projects_bottom_spacing {
+  color: var(--color_scheme_4);
+  background-color: var(--color_scheme_3);
+}
+
+div.experiance_bottom_spacing {
+  color: var(--color_scheme_4);
+  background-color: var(--color_scheme_3);
+  height: 40px;
+}
+
+.job_entry_cell {
+  color: var(--color_scheme_4);
+  background-color: var(--color_scheme_2);
+  height: 10px;
+  width: 190px;
+  text-align: center;
+}
+
+.job_entry_cell_job_title {
+  color: var(--color_scheme_4);
+  background-color: var(--color_scheme_2);
+  height: 65px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 0.5;
+  padding-top: 10px;
+}
+
+.job_entry_cell_left_align {
+  background-color: var(--color_scheme_2);
+  height: 10px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.job_entry_cell_right_align {
+  background-color: var(--color_scheme_2);
+  height: 10px;
+  text-align: right;
+  font-weight: bold;
+}
+
+.job_entry_cell2 {
+}
+
+.no_border_table {
+  border-spacing: 0;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-size: 20;
+}
+
+.small_slider_container {
+    height: 38.0vmin;
+    width: 71vmin;
+    position: relative;
+    opacity: 0.0;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.slider_container {
+    height: 38.0vmin;
+    width: 71vmin;
+    position: relative;
+    opacity: 0.0;
+    overflow: hidden;
+    // padding: 20px;
+    //border: 5px solid #bfc0c1;
+    //box-shadow:-3px 5px 15px #000;
+}
+
+#slider_img_1 {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);
+}
+
+#slider_img_2 {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);
+}
+
+#slider_1{
+    position: absolute;
+    -webkit-appearance: none;
+    width: calc( 100% + 40px);
+    height: 100%;
+    margin-left: -20px;
+    background-color: transparent;
+    outline: none;
+    z-index: 30;
+    visibility: hidden;
+}
+
+#slider_2{
+    position: absolute;
+    -webkit-appearance: none;
+    width: calc( 100% + 40px);
+    height: 100%;
+    margin-left: -20px;
+    background-color: transparent;
+    outline: none;
+    z-index: 30;
+    visibility: hidden;
+}
+
+#slider_1::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    height: 45px;
+    width: 45px;
+    background: url("slider-icon.svg"),
+    rgba(255,255,255,0.3);
+    border: 4px solid white;
+    border-radius: 50%;
+    background-size: contain;
+    cursor: pointer;
+}
+
+#slider_2::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    height: 45px;
+    width: 45px;
+    background: url("slider-icon.svg"),
+    rgba(255,255,255,0.3);
+    border: 4px solid white;
+    border-radius: 50%;
+    background-size: contain;
+    cursor: pointer;
+}
